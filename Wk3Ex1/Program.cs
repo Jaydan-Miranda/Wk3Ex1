@@ -10,6 +10,7 @@ namespace Wk3Ex1
     {
         static void Main(string[] args)
         {
+            // Start of the program and displays the title of the program and what it does
             Console.WriteLine("Currency Converter: ");
             Console.WriteLine("Convert currency to USD, EUR, JPY");
 
@@ -102,7 +103,7 @@ namespace Wk3Ex1
             //if statements to convert the currency from one to another
             if (fromCurrency == "USD" && toCurrency == "EUR")
             {
-                return amount * usdToEur;
+                return amount * usdToEur; //return the amount converted to the new currency by multiplying the amount by the exchange rate
             }
             else if (fromCurrency == "USD" && toCurrency == "JPY")
             {
